@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="app_name">Inf Timetable</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="title_activity_filter_courses">FilterCourses</string>
+    <string name="title_activity_select_courses">SelectCourses</string>
+    <string name="informaticsTT">Informatics Timetable</string>
+    <string name="touchtoCont">Touch Screen to Continue</string>
+    <string name="imageHeader">Header</string>
+    <string name="findCourses">Find Courses</string>
+    <string name="txtSemester">Semester :</string>
+    <string name="txtYear">Year :</string>
+    <string name="txtSearch">Search by Course Name or Acronym</string>
+    <string name="txtSearchName">Course Name :</string>
+    <string name="txtSearchAcronym">Course Acronym :</string>
+    <string name="typeHere">Type Here</string>
+    <string name="buttonFindCourses">Search Courses</string>
+    <string name="createTT">Create Timetable</string>
+    <string name="chooseCourses">Choose your courses</string>
+
+    <string-array name="semester">
+        <item>All</item>
+        <item>S1</item>
+        <item>S2</item>
+    </string-array>
+
+    <string name="txtcourseLevel">Level :</string>
+    <string name="txtLevelDefault">0</string>
+    <string name="txtcourseCredits">"Credits : "</string>
+    <string name="txtcreditsDefault">0</string>
+    <string name="txtcourseURL">Homepage</string>
+    <string name="txtcourseDRPS">DRPS</string>
+    <string name="txtCourseName">Course Name</string>
+    <string name="txtLecturer">Lecturer :</string>
+    <string name="txtDP">Delivery Period :</string>
+    <string name="txtLecturerName">Lecturer Name</string>
+    <string name="txtSemesterDefault">Semester 1 and 2</string>
+    <string name="actualURL">URL</string>
+    <string name="actualDRPS">DRPS</string>
+    <string name="txtCheckbox">Course Name</string>
+
+    <string-array name="year">
+        <item>All</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="title_activity_timetable">Timetable</string>
+    <string name="txtBar">|</string>
+    <string name="txtRoom">Room</string>
+    <string name="txtBuilding">Building</string>
+    <string name="txtHyphen">-</string>
+    <string name="txtTimeEnd">00:00</string>
+    <string name="txtTimeStart">00:00</string>
+    <string name="txtCourseAcronym">Course Acronym</string>
+    <string name="txtDay">Day</string>
+    <string name="btnShowSelected">Show Selected</string>
+    <string name="showFiltered">Show Filtered</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="showSavedTT">Show Timetable</string>
+    <string name="txtFilterCourses">Make New Timetable</string>
+    <string name="txtComment">Comment :</string>
+    <string name="comment">No Comment</string>
+
+</resources>

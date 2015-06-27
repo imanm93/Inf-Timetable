@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/uni_logo"
+    	android:clickable="true"
+    	android:focusable="true"
+        android:id="@+id/screen"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="61dp"
+            android:paddingLeft="60dp"
+            android:paddingTop="50dp"
+            android:text="@string/informaticsTT"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/txtTouchtoCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            android:paddingTop="270dp"
+            android:text="@string/touchtoCont" />
+
+</LinearLayout>

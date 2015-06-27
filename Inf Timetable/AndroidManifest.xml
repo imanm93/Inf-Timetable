@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="selp.inf.timetable"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeScreen"
+            android:label="@string/title_activity_welcome_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilterCourses"
+            android:label="@string/title_activity_filter_courses" >
+        </activity>
+        <activity
+            android:name=".SelectCourses"
+            android:label="@string/title_activity_select_courses" >
+        </activity>
+        <activity
+            android:name=".Timetable"
+            android:label="@string/title_activity_timetable" >
+        </activity>
+        <activity
+            android:name=".MenuScreen"
+            android:label="@string/title_activity_menu" >
+        </activity>
+    </application>
+
+</manifest>
